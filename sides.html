@@ -1,0 +1,59 @@
+<!doctype html>
+<html ng-app="sidesApp">
+    <head>
+        <title>Yummy Things</title>
+        <script src="../JS/angular.min.js" ></script>
+        <script src="../JS/sides.js" ></script>
+        <link rel="stylesheet" href="../CSS/main.css">
+    </head>
+<body>
+    
+    <a href="../HTML/index.html"><img src='../Images/title.png' id="title_image" alt="title"/></a>
+<div class="nav" id="main_nav">
+    <ul>
+    <li><a href="../HTML/breakfast.html">Breakfast</a></li>
+        <li><a href="../HTML/casseroles.html">Casseroles</a></li>
+    <li><a href="../HTML/salads.html">Salads</a></li>
+    <li><a href="../HTML/sides.html">Sides</a></li>
+    <li><a href="../HTML/desserts.html">Desserts</a></li>
+    <li><a href="../HTML/about_website.html">About The Website</a></li>
+    <li><a href="../HTML/contact_us.html">Contact Us</a></li>
+    </ul></div>
+    
+    <div ng-controller="SidesController as sRecipes">
+    <article id="recipes" ng-repeat="Recipes in sRecipes.sides">
+    <header id="recipe_headers">
+         <img ng-src="{{Recipes.image}}" style="width:50%; height:50%"/>
+        <h1>{{Recipes.title}}</h1>
+        <p>{{Recipes.description}}</p>
+    </header>
+        
+    <section class="tab" id="recipe_main_content" ng-controller ="TabController as panel">
+        <ul id="buttons">
+            <li ng-class ="{active: panel.isSet(1)}"><a href ng-click="panel.setTab(1)">Ingredients</a></li>
+            <li ng-class ="{active: panel.isSet(2)}"><a href ng-click="panel.setTab(2)">Procedure</a></li>
+        </ul>
+        
+         <div  class="panel" ng-show="panel.isSet(1)" ng-repeat="Recipe in Recipes.ingredients">
+            <h2>{{Recipe.name}}</h2>
+            <ul>
+                <li ng-repeat="Ing in Recipe.Ing">
+                    <input type="checkbox" ng-model="Ing.done">
+                    <span class="done-{{Ing.done}}">{{Ing.text}}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="panel" ng-show="panel.isSet(2)">
+            <ol>
+                <li ng-repeat="Proced in Recipes.procedure">{{Proced}}</li>
+                <br><br>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+</article>
+</div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+ html {
+    background: url("../Images/Picture1.png") no-repeat;
+}
+
+body{
+    font-family: Georgia, Tahoma, Ariel, sans-serif;
+}
+
+#title_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 60%;
+    height: 60%;
+
+}
+
+p#maintenance{
+    margin-left: 270px;
+}
+
+#About{
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.nav{
+    background: url('../Images/nav_bar.png') no-repeat center;
+    height: 70px;
+    background-size: 70% 60%;
+    overflow: hidden; 
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    padding-left: 230px;
+    padding-right: auto;
+    list-style: none;
+}
+.nav ul li a{
+    line-height: 50px;
+    float:left;
+    display: block;
+    padding: 10px 18px;
+    color: #fff;
+    font-family: Tahoma;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: -2px 2px 2px #999;
+}
+
+.nav ul li a:hover{
+    color: rgb(169,209,142);
+}
+
+#recipes{
+    margin-left: 270px;
+    margin-right: 460px;
+}
+
+#recipes h1{
+    font-size: 20px;
+    color:rgb(183,53,52);
+}
+#recipes h2{
+    font-size: 16px;
+}
+
+#recipes img{
+ float: right;
+ padding: 5px;
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#recipe_headers p{
+    font-style: italic;
+    color:rgb(191,144,0);
+}
+
+#recipe_headers ul li{
+list-style: none;
+}
+
+.tab ul{
+    list-style: none;
+}
+
+ul#buttons{
+    color: white;
+    font-family: Tahoma;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul#buttons li{
+    display: inline;
+}
+ul#buttons a{
+    background: #c84b4d;
+    background-image: -webkit-linear-gradient(top, #c84b4d, #a63a3c);
+    background-image: -moz-linear-gradient(top, #c84b4d, #a63a3c);
+    background-image: -ms-linear-gradient(top, #c84b4d, #a63a3c);
+    background-image: -o-linear-gradient(top, #c84b4d, #a63a3c);
+    background-image: linear-gradient(to bottom, #c84b4d, #a63a3c);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    text-shadow: 3px 0px 3px #873434;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Tahoma;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    border: solid #b73434 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.panel ul{
+    margin-left: -30px;
+}
+
+ul#buttons li a:hover{
+    background: #8a292e;
+    text-decoration: none;
+}
+ul#buttons li a:active{
+    background: #8a292e;
+    text-decoration: none;
+}
