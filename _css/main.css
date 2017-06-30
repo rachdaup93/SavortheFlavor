@@ -1,5 +1,5 @@
  html {
-    background: url("../Images/Picture1.png") no-repeat;
+    background: url("../_images/Picture1.png") no-repeat;
 }
 
 body{
@@ -27,7 +27,7 @@ p#maintenance{
 }
 
 .nav{
-    background: url('../Images/nav_bar.png') no-repeat center;
+    background: url('../_images/nav_bar.png') no-repeat center;
     height: 70px;
     background-size: 70% 60%;
     overflow: hidden; 
