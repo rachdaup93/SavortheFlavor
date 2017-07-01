@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Yummy Things</title>
-        <link rel="stylesheet" href="./_css/main.css" type="text/css">
-    </head>
+<head>
+    <title>Savor the Flavor</title>
+    <link rel="stylesheet" href="_css/main.css" type="text/css">
+    <link rel="stylesheet" href="_css/reset.css" type="text/css">
+    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
 <body>
-    <a href="index.html"><img src='./_images/title.png' id="title_image" alt="title"/></a>
-<div class="nav" id="main_nav">
-    <ul>
-    <li><a href="../HTML/breakfast.html">Breakfast</a></li>
-        <li><a href="../HTML/casseroles.html">Casseroles</a></li>
-    <li><a href="../HTML/salads.html">Salads</a></li>
-    <li><a href="../HTML/sides.html">Sides</a></li>
-    <li><a href="../HTML/desserts.html">Desserts</a></li>
-    <li><a href="../HTML/about_website.html">About The Website</a></li>
-    <li><a href="../HTML/contact_us.html">Contact Us</a></li>
-    </ul></div>
-    </body>
+    <header>
+    <div class="flex_container subscribe">
+        <h1>subscribe</h1>
+        <h3>To receive the lastest recipes</h3>
+        <form class="form-inline">
+  <div class="form-group input-group input-group-sm">
+    <input type="text" class="form-control" id="full name" placeholder="name">
+  </div>
+  <div class="form-group input-group input-group-sm">
+    <input type="email" class="form-control" id="email" placeholder="email">
+              <span class="input-group-btn">
+        <button type="submit" class="btn btn-default">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </button>
+      </span>
+  </div>
+</form>
+    </div>
+    </header>
+    <main class="flex_container column">
+        <div class="flex_container divider">
+            <nav>
+            <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                <a href="">recipes</a>
+                <a href="">about</a>
+            </nav>
+        </div>
+        <h1>What's for <span>Dinner</span></h1>
+        <div class="flex_container column divider">
+            <div class="flex_container row">
+                <span class="flex_container column">
+                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <p>text text text text</p></span>
+                <span class="flex_container column">
+                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <p>text text text text</p></span>
+                <span class="flex_container column">
+                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <p>text text text text</p></span>
+                <span class="flex_container column">
+                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <p>text text text text</p></span>
+            </div>
+            <div class="flex_container row">
+                <span class="flex_container row"></span>
+                <span class="flex_container column"></span>
+            </div>
+        </div>
+        <div class="flex_container divider">
+        </div>
+    </main>
+</body>
 </html>
