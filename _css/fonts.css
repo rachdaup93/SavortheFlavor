@@ -6,22 +6,7 @@
   src: local('Adamina Regular'), local('Adamina-Regular'), url(https://fonts.gstatic.com/s/adamina/v9/JAttAW9Rn8cZSbOU_aVAEQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-/* greek-ext */
-@font-face {
-  font-family: 'Cardo';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Cardo';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/nlGT-2rsvmEdRn3zJayfCg.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
+
 /* latin-ext */
 @font-face {
   font-family: 'Cardo';
@@ -38,22 +23,7 @@
   src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-/* greek-ext */
-@font-face {
-  font-family: 'Cardo';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/CArtGq9Q3qzj8QUXKfz9aBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Cardo';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/CvMoq5iQN4SnWOQK2mLIFRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
+
 /* latin-ext */
 @font-face {
   font-family: 'Cardo';
@@ -70,22 +40,7 @@
   src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-/* greek-ext */
-@font-face {
-  font-family: 'Cardo';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url(https://fonts.gstatic.com/s/cardo/v8/TlFZkHvdcEKx9Hp-bf5fqfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Cardo';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url(https://fonts.gstatic.com/s/cardo/v8/G9OYyU4q7QbMVwPcakrC5PY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
+
 /* latin-ext */
 @font-face {
   font-family: 'Cardo';
