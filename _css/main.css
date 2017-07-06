@@ -1,8 +1,15 @@
-*{
+@import url("fonts.css");
+
+html{
+    font-size: 14px;
+}
+
+div, h1,h2,h3,p{
     border: solid 1px black;
 }
+
 main{
-    margin: 0 10rem;
+    padding: 0 7rem;
 }
 .flex_container {
     display: flex;
@@ -21,4 +28,51 @@ main{
 .thumbnail{
     width: 200px;
     height: 200px;
+}
+
+h1{
+    font-family: 'Dawning of a New Day','Segoe Script', cursive;
+    font-size: 2.3rem;
+}
+
+h2{
+    font-family: 'Cutive Mono','Courier New', monospace;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #4F424B;
+}
+
+h3{
+    font-family: 'Cardo', 'Bell MT', serif;
+    font-size: 1.3rem;
+    color: #FFF;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.subscribe{
+    background-color:#6F8B7D;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subscribe h1 {
+    font-family: 'Cardo', 'Bell MT', serif;
+    font-weight: 700;
+    font-size: 3.4rem;
+    color:#E3BF81;
+    padding: 0.7rem 0;
+}
+.subscribe h3{
+    padding: 0 10rem 0 2rem;
+}
+.form-inline div {
+    padding-right: 1.7rem;
+}
+
+.special{
+    font-family: 'Dawning of a New Day','Segoe Script', cursive;
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #6F8B7D;
 }
