@@ -25,7 +25,7 @@
         </form>
         </header>
     <main class="flex_container column">
-            <nav class="flex_container divider nav">
+            <nav class="flex_container nav">
             <img class="thumbnail" src="_images/title.png" />
                 <a href="">recipes</a>
                 <a href="">about</a>
@@ -39,25 +39,25 @@
                 </span>
             </div>
             </nav>
-        <h2>What's for <span class="special">Dinner</span></h2>
-        <div class="flex_container column divider section">
+        <h2 class="divider">What's for <span class="special">Dinner</span></h2>
+        <div class="flex_container column section">
             <div class="flex_container row "  id="dinner">
                 <span class="flex_container column ">
                     <img class="thumbnail" src="_images/salads/orangesalad.png" />
-                    <h2>Salad</h2>
-                    <p>Padish, Orange, and Arugula Salad with Cumin Vinaigrette</p></span>
+                    
+                    <p>Padish, Orange, and Arugula Salad with Cumin Vinaigrette</p><h2>Salad</h2></span>
                 <span class="flex_container column ">
                     <img class="thumbnail" src="_images/poultry/chickencalzone.png" />
-                    <h2>Main Course</h2>
-                    <p>Chicken Sausage Calzone</p></span>
+                    <p>Chicken Sausage Calzone</p>
+                <h2>Main Course</h2></span>
                 <span class="flex_container column ">
                     <img class="thumbnail" src="_images/sides/brusselsprouts.png" />
-                    <h2>Side</h2>
-                    <p>Manchego-Almond Brussels Sprouts</p></span>
+                    
+                    <p>Manchego-Almond Brussels Sprouts</p><h2>Side</h2></span>
                 <span class="flex_container column ">
                     <img class="thumbnail" src="_images/desserts/banoffeepie.png" />
-                    <h2>Dessert</h2>
-                    <p>Banoffee Pie</p></span>
+                    
+                    <p>Banoffee Pie</p><h2>Dessert</h2></span>
             </div>
             <div class="flex_container row">
                 <div class="flex_container" id="good_to_know">
@@ -74,35 +74,55 @@
                 </span>
             </div>
         </div>
-        <h2>Freshest <span class="special">Flavors</span></h2>
-        <div class="flex_container divider section">
-            <span class="flex_container column">
+        <h2 class="divider">Freshest <span class="special">Flavors</span></h2>
+        <div class="flex_container section" id="freshest">
+            <span class="flex_container column left">
                 <div class="flex_container row">
-                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <img class="" src="_images/breakfast/bltbagel.png" />
                     <span>
-                    <h1>Heading 1</h1>
-                    <p>text text text text</p>
+                    <span class="special">1</span><h2>Everything Cream Cheese BLTs on Everything Bagels</h2>
+                    <p>This recipe has been a family favorite for years. Serve these sandwiches with a Bloody Mary and the Sunday New York Times &#95; even if you don't have time toread it until Monday!</p>
+                        <a id="hook" href="">Check out the recipe <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
                     </span>
                 </div>
                 <div class="flex_container row">
-                    <img class="thumbnail" src="_images/breakfast/applestufffrenchtoast.png" />
+                    <img class="thumbnail" src="_images/pasta/maccheesecauliflower.png" />
                     <span>
-                    <h1>Heading 1</h1>
-                    <p>text text text text</p>
+                    <span class="special">2</span><h2>Brown Macaroni with Four Cheeses &amp; Cauliflower </h2>
+                    <p>This hearty pasta is a holiday-worthy side dish for 12 or a rich entr&eacute;e for 6.</p>
+                        <a id="hook" href="">Check out the recipe <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
                     </span>
                 </div>
             </span>
-                <span class="flex_container column">
-                    <p><span>1</span>text text text text</p>
-                    <p><span>2</span>text text text text</p>
-                    <p><span>3</span>text text text text</p>
-                    <p><span>4</span>text text text text</p>
-                    <p><span>5</span>text text text text</p>
-                    <p><span>6</span>text text text text</p>
-                    <p><span>7</span>text text text text</p>
+                <span class="flex_container column right">
+                    <span class="flex_container">
+                    <span class="special">3</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">4</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">5</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">6</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">7</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">8</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">9</span><p>text text text text</p>
+                    </span>
+                    <span class="flex_container">
+                    <span class="special">10</span><p>text text text text</p>
+                    </span>
                 </span>
         </div>
-        <h2>Personal <span class="special">Favorites</span></h2>
+        <h2 class="divider">Personal <span class="special">Favorites</span></h2>
+        <div class="flex_container" id="personal">
         <div class="flex_container row textured_background section">
         <div class="flex_container column">
             <div class="flex_container row">
@@ -137,6 +157,7 @@
                 </div>
         </div>
         </div>
+            </div>
             <div class="flex_container subscribe">
         <h1>sign up</h1>
         <h3>To receive the lastest recipes</h3>
@@ -154,7 +175,7 @@
   </div>
 </form>
     </div>
-        <div class="flex_container column divider section">
+        <div class="flex_container column section">
             <span class="flex_container row">
                 <a href="">Vegetarian</a>
                 <a href="">For the Kids</a>
@@ -179,7 +200,7 @@
                 </span>
             </div>
         </nav>
-        <footer>
+        <footer class="divider">
             <p>Copyright &copy; 2017 &diams; Back to Top &diams; Privacy Policiess</p>
         </footer>
     </main>
